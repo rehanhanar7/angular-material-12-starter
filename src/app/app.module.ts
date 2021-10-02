@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
-import { MaterialModule } from '../angular-material/angular-material.module';
+import { AngularMaterialModule } from '../angular-material/angular-material.module';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, MaterialModule],
+  imports: [BrowserModule, FormsModule, AngularMaterialModule],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
 })
